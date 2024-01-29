@@ -4,9 +4,9 @@ Maintainer: Boyuan Yang <byang@debian.org>
 Uploaders:
  Jérémy Lal <kapouer@melix.org>,
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
 Rules-Requires-Root: no
-Standards-Version: 4.5.0
+Standards-Version: 4.6.2
 Section: libs
 Homepage: http://software.schmorp.de/pkg/libev.html
 Vcs-Git: https://salsa.debian.org/debian/libev.git
