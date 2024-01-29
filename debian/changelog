@@ -1,14 +1,13 @@
-libev (1:4.33.1-1+dde) UNRELEASED; urgency=medium
+libev (1:4.33-2) unstable; urgency=medium
 
-  * update
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * debian/rules: Drop --fail-missing argument to dh_missing.
+  * Set field Upstream-Name in debian/copyright.
+  * Update standards version to 4.6.2, no changes needed.
+  * Avoid explicitly specifying -Wl,--as-needed linker flag.
 
- -- Boyuan Yang <byang@debian.org>  Wed, 15 Jun 2022 13:34:31 +0800
-
-libev (1:4.33.1-1+dde) unstable; urgency=medium
-
-  * Add sunway support.
-
- -- Miao Changwei <miaochangwei@uniontech.com>  Sun, 17 Apr 2022 21:18:16 +0800
+ -- Boyuan Yang <byang@debian.org>  Sat, 11 Nov 2023 20:48:29 -0500
 
 libev (1:4.33-1) unstable; urgency=medium
 

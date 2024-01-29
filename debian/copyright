@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: http://dist.schmorp.de/libev/
+Upstream-Name: libev
 
 Files: *
 Copyright: 2007-2012 Marc Alexander Lehmann <libev@schmorp.de>
